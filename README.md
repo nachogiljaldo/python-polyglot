@@ -3,7 +3,7 @@ A silly example to compare a benchmark between pure python and python on graalvm
 
 # Usage
 You can use the Makefile targets to build and run the images:
-- `make run-native` builds the docker image for the thin Java wrapper for the python code. You can tweak the number of iterations
+- `make run-native` builds the docker image for the thin Java wrapper for the python code. You can tweak the number of iterations.
 by setting the environment variables `ITERATIONS` (default 5) and `ARGUMENTS` (default 3).
 - `make run-python` similarly builds the docker image for the Python code and runs the test. Same environment variables as
 in the previous.
